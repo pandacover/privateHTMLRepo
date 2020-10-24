@@ -1,0 +1,64 @@
+.body-container {
+    width: 98%;
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    padding-top: 5vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
+}
+
+.body-text-container {
+    width: 50vw;
+}
+
+.chat-img-container {
+    width: 50vw;
+}
+
+.body-title {
+    font-size: 3vw;
+}
+
+.chat-img {
+    background-image: url('../images/chat.png');
+    height: 25vw;
+    position: relative;
+    top: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-subtitle {
+    font-size: 1.2vw;
+}
+
+.line {
+    width: 15vw;
+    height: 0.2vw;
+    background: gray;
+}
+
+@media screen and (max-width: 620px) {
+    .body-container {
+        display: block;
+    }
+
+    .body-text-container {
+        margin: 0 auto;
+    }
+
+    .chat-img-container {
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .chat-img {
+        top: 0;
+        margin-left: 0px;
+    }
+
+    ul {
+        padding-inline-start: 20px;
+    }
+}

@@ -1,11 +1,11 @@
-* {
-    background: rgb(28, 28, 28);
+body {
+    margin: 0px;
+    padding: 0px;
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2vw;
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+    background: rgb(28, 28, 28);
+    font-family: 'Patrick Hand', cursive;
 }
 
 nav {
@@ -31,10 +31,10 @@ nav {
 
 .bar-item:hover {
     color: lightcoral;
-    border-top: 0.5vw solid white;
+    border-top: 0.1vw solid white;
 }
 
-.footer-container {
+.footer-container, footer{
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -42,8 +42,9 @@ nav {
     background-color: black;
 }
 
-@media screen and (max-width: 1300px) {
-    .footer-container {height: 3vw;}
+@media screen and (max-width: 620px) {
+
+    .footer-container {height: 3vw; position: relative; bottom: 0;}
 }
 
 @media screen and (max-width: 620px) {
