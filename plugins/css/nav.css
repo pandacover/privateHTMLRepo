@@ -45,3 +45,7 @@ nav {
 @media screen and (max-width: 1300px) {
     .footer-container {height: 3vw;}
 }
+
+@media screen and (max-width: 620px) {
+    .bar-item {font-size: 3vw;}
+}
