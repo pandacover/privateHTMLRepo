@@ -39,7 +39,7 @@
     background: gray;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1300px) {
     .body-container {
         display: block;
         font-size: 3.5vw;
