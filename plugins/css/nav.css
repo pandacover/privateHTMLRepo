@@ -1,50 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(28, 28, 28);
     color: white;
-    font-size: 1.2vw;
-    box-sizing: border-box;
-    background: rgb(28, 28, 28);
-    font-family: 'Patrick Hand', cursive;
 }
 
 nav {
-    max-width: 100%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 5px black;
+    width: 100%;
+    height: 7%;
+}
+
+.links-container {
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-flow: row;
+    align-items: center;
     justify-content: center;
-    height: 40px;
+    padding: 0px;
+    font-size: 13px;
 }
 
-.navigate-container {
-    width: 100%;
-    margin-top: 5px;
-    text-align: center;
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navigate-container .bar-item {
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.links a {
     text-decoration: none;
-    padding: 0px 20px;
-    transition: border-top 0.19s;
     color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 5.5px;
 }
 
-.bar-item:hover {
-    color: lightcoral;
-    border-top: 0.1vw solid white;
-}
 
-.footer-container, footer{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 44px;
-    background-color: black;
-}
-
-@media screen and (max-width: 1300px) {
-
-    .footer-container {height: 3vw; position: relative; bottom: 0;}
-    nav {font-family: 'Source Sans Pro', sans-serif;}
-    .bar-item {font-size: 3vw;}
+.links a:hover {
+    color: rgb(255, 255, 255, 0.85);
 }
